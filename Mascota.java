@@ -41,7 +41,7 @@ class Mascota {
 
     public void setEdad(int nuevaEdad) {
         if (nuevaEdad < 0) {
-            System.out.println("RECHAZADO: " + nombre + " no puede tener " + nuevaEdad + " anios");
+            System.out.println("RECHAZADO: " + nombre + " no puede tener " + nuevaEdad + " años");
             return;
         }
         this.edad = nuevaEdad;
