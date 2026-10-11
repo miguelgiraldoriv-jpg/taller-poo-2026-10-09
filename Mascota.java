@@ -64,6 +64,6 @@ class Mascota {
     }
 
     public String descripcion() {
-        return nombre + " (" + especie + ", " + peso + " kg, " + edad + " anios)";
+        return nombre + " (" + especie + ", " + peso + " kg, " + edad + " años)";
     }
 }
